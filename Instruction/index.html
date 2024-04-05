@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link href="mystyle.css" rel="stylesheet">
+</head>
+    
+<body>
+    
+<div id="heading">
+    <span id="welcomeMes">WELCOME <span id="userName"></span></span>
+    <center><h1><u>INSTRUCTION</u></h1></center>
+</div>
+
+<div id="container">
+    <span id="instructHead">Please read the instructions carefully before starting the test.</span>
+    
+<ol id="instruction">
+    
+<li>Click <b>Start Exam</b> on bottom of your screen to begin the test.</li><br/>
+<li>The count down timer which display left out time to closure is present in the top right side of the screen will help you to monitor time to complete the exam.</li><br/>
+<li>To select the answer, Simply click the desired option button. Candidate can change their response of attempted answer anytime during examination by clicking another option which candidate want to change.</li><br/>
+<li>Click on Next to save the answer and move to the next question. The next question will automatically be displayed.Click previous to go back to the previous question and click clear to remove the selected option.</li><br/>
+<li>To select  question, click on the question number on the left side of the screen. The coloured question number in the left side of the screen show the status of the questions.</li>
+    <center>
+    <table border="4" cellpadding="5" cellspacing="5">
+        <tr id="blue">
+            <td>Blue</td>
+            <td>Answer Selected</td>
+        </tr>
+        <tr id="white">
+            <td>White</td>
+            <td>Answer not Selected</td>
+        </tr>
+        </table>
+        </center><br/>
+<li>All the answered questions will be counted for calculating the final scores. There is no negative marks for any questions.</li><br/>
+<li>Do not click the <b>Submit</b> on the top right side of the screen unless you have completed the exam. In case you click Submit you will not permitted to continue the exam.</li><br/>
+<li>Score obtained will be displayed immediately after the test.</li>
+
+</ol><br/>
+    
+<p>
+    <input type="checkbox" value="" id="condition" onchange="conditionCheck()"/>
+    <label for="condition">I have read and understood all the instructions given above.</label>
+</p>
+    
+<p><center>
+    <input type="button" value="Start Exam" id="startBtn" onclick="handleStartExam()" disabled/>
+</center></p>
+    
+</div>
+    
+<script src="myscript.js"></script>
+</body>
+</html>

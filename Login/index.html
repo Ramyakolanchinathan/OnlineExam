@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="mystyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="container">
+    
+<center id="title"><h1><u>LOGIN</u></h1></center>
+    
+<p><center>
+    <span id="successfullLoginMes">LOGIN SUCCESSFULLY</span>
+    <span id ="failedLoginMes">LOGIN FAILED</span>
+</center></p>
+    <br/>
+       
+<p>
+    <label for="name">USER NAME&nbsp;&nbsp;:</label>
+    <input type ="text" value="" placeholder="Enter your Name" id="name" onkeyup="validName()"/>
+    <span id="errormesName">*Name is Required</span>
+</p><br>
+    
+<p>
+    <label for="password">PASSWORD&nbsp;&nbsp;&nbsp;:</label>
+    <input type ="password" value="" placeholder="Enter your Password" id="password" onkeyup="validPassword()"/>
+    <span id="errormesPwd">*Password is Required</span>
+</p><br><br>
+        
+<p><center>
+    <span><input type=button value="Login" id="loginBtn" onclick="handlelogin()"/></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span><input type=button value="Clear" id="clearBtn" onclick="handleClear()"/></span>
+</center></p><br>
+    
+</div>  
+    
+    <script src="myscript.js"></script>
+</body>
+
+</html>

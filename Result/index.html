@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <link href="mystyle.css" rel="stylesheet">   
+</head>
+
+<body>   
+<div id="heading">
+    <span id="welcomeMes">WELCOME <span id="userName"></span></span>&nbsp;&nbsp;&nbsp;
+    <input type="button" value="Logout" id="logoutBtn" onclick="handleLogout()"/>
+    <center><u><h1>RESULT</h1></u></center>
+</div>
+
+<div id="container">
+    
+<div id="analysis">
+<div id="countList">
+    Number of total Questions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 20<br/>
+    Number of Skipped Questions&nbsp;: <span id="skippedCount"></span><br/>
+    Number of Correct Answers&nbsp;&nbsp;&nbsp;&nbsp;: <span id="crtAnsCount"></span><br/>
+    Number of Wrong Answers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="wrgAnsCount"></span><br/>
+</div>
+</div>  
+    
+<div id="analysisResult">
+    <span id="total">Total Mark : <span id="analyzedMark"></span></span>
+    <span id="average">Average : <span id="analyzedAverage"></span>%</span>
+    <span id="grade">Grade : <span id="analyzedGrade"></span></span>  
+</div>    
+ 
+<div id="gradeDetail">
+<div id="finalResult">
+    <center><p id="classResult">class</p></center>
+    <center><div id="percent"><span id="percentResult"></span>%</div></center>
+</div>
+    
+<div id="btn">
+    <input type="button" value="Summary" id="summaryBtn" onclick="handleSummary()"/>
+</div>
+    
+<div class="denotingClass">
+<div id="cirDestinction"></div>&nbsp;
+    <span>Destinction</span><br>
+<div id="cirFirstClass"></div>&nbsp;
+    <span>First Class</span><br>   
+<div id="cirSecondClass"></div>&nbsp;
+    <span>Second Class</span><br>
+<div id="cirThirdClass"></div>&nbsp;
+    <span>Third Class</span><br>
+<div id="cirFail"></div>&nbsp;
+    <span>Fail</span><br>
+</div>  
+</div> 
+</div>   
+    
+    <script src="myscript.js"></script>
+</body>
+    
+</html>

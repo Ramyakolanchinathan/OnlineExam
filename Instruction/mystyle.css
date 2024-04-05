@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+#heading{
+    background-image: radial-gradient(gray 30%,black 90%);
+    border: double white;
+    width: auto;
+    height: 100px;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+#welcomeMes{
+    font-size: 20px;
+}
+#container{
+    background-image: url("https://media.istockphoto.com/id/1320624034/video/blur-public-library.jpg?s=640x640&k=20&c=esgOM1KsaRj3rVrkUxt2L4QYwTwG0xgZB8TXCiaJFKk=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 710px;
+    border: solid black 2px;
+    padding: 20px;
+    font-family: Verdana;
+}
+
+#instructHead{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+#instruction{
+    font-size: 18px;
+}
+
+#blue{
+    background-color: dodgerblue;
+}
+
+#white{
+    background-color: white;
+}
+
+label{
+    color:red;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#startBtn{
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 45px;
+    width: 150px;
+    background-color:darkgray;
+    font-size: 18px;
+    text-align: center;
+}
+
+#startBtn:active{
+     background-color: black;
+     color: darkgray;
+     border:solid white 2px
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <link href="mystyle.css" rel="stylesheet">   
+</head>
+
+<body>    
+<div id="heading">   
+    <span id="welcomeMes">WELCOME <span id="userName"></span></span>&nbsp;&nbsp;&nbsp;
+    <input type="button" value="Logout" id="logoutBtn" onclick="handleLogout()"/>
+    <center><u><h1>JAVASCRIPT EXAM</h1></u></center>    
+</div>
+    
+<div id="heading1">
+    <span id="countDown"></span>
+    <input type="button" value="Submit" id="submitBtn" onclick="handleSubmitBtn()"/>
+</div>
+    
+<div id="container">
+    
+<div id="ansStatusContainer"> 
+    <span>Number of questions:</span><br/><br/>
+<div id="noOfQuestionElm">
+</div>
+        
+<div class="answerStatus">
+<div id="cirAnswer"></div>
+    <span>Answer Selected</span>
+</div><br/>
+    
+<div class="answerStatus">
+<div id="cirNotAnswer"></div>
+<span>Answer not Selected</span>
+</div>   
+</div>
+        
+    
+<div id="qnContainer">
+    <p><b><span id="outOfQn"></span> out of 20 questions:-</b></p>
+<p id="question">
+    
+<p id="optionContainer1"></p>
+<p id="optionContainer2"></p>
+<p id="optionContainer3"></p>
+<p id="optionContainer4"></p>
+    
+<br/>
+<center>
+    <input type="button" value="Prev" id="prevBtn" onclick="handlePrevBtn()" disabled/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="Next" id="nextBtn" onclick="handleNextBtn()"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="Clear" id="clearBtn" onclick="handleClearBtn()"/>
+</center>
+</div>
+
+    </div>
+    <script src="myscript.js"></script>
+
+    </body>
+ 
+</html>
